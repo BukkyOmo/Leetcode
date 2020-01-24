@@ -17,6 +17,7 @@ return [0, 1].
     // pick one element and check it against each of the remaining elements
     // if the sum = target, return the indices
 
+    //first solution
 const twoSum = (nums, target) => {
     let result = [];
         for(let i = 0; i < nums.length; i++){
@@ -30,7 +31,8 @@ const twoSum = (nums, target) => {
         }
     }
     
-const result = twoSum([2, 11, 5, 8, 15], 10)
+// const result = twoSum([2, 11, 5, 8, 15], 10)
+const result = twoSum([3, 3], 6)
 console.log(result);
 
 // This solution has a time complexity of n^2 and can be rewritten in a better algorithm for performance and scalabilty
